@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 600px) {
     .card2 {
-        width: 340px;
+        width: 290px;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 0;
@@ -121,12 +121,12 @@
     }
 
     .skill {
-        font-size: 28px;
+        font-size: 22px;
         text-align: center;
     }
 
     .skill-title {
-        font-size: 18px;
+        font-size: 17px;
         margin-left: 0;
     }
 
@@ -156,7 +156,7 @@
     }
 
     .language {
-        font-size: 15px;
+        font-size: 14px;
     }
 
 }
