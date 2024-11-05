@@ -23,4 +23,8 @@ body {
         padding-right: 60px;
         overflow-x: hidden;
     }
+
+    .neon-border {
+        padding: 10px;
+    }
 }
