@@ -111,3 +111,53 @@
     margin: 0;
     display: flex;
 }
+
+@media screen and (max-width: 600px) {
+    .card2 {
+        width: 370px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0;
+        position: relative;
+    }
+
+    .skill {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .skill-title {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .skill-expertise {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        gap:40px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .skill-wrapper {
+        padding: 0;
+    }
+
+    .skill-logo {
+        height: 50px;
+    }
+    
+    .languages-wrapper {
+        gap: 15px;
+    }
+
+    .language-box {
+        width: 100px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+}
