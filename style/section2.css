@@ -1,6 +1,5 @@
 .section2 {
     width: 100%;
-    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +113,7 @@
 
 @media screen and (max-width: 600px) {
     .card2 {
-        width: 370px;
+        width: 340px;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 0;
