@@ -54,3 +54,36 @@
     text-align: justify;
     padding : 7px 80px;
 }
+
+@media screen and (max-width: 600px) {
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        position: relative;
+    }
+
+    .picture {
+        height: 220px;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .hi-there {
+        font-size: 28px;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .name {
+        font-size: 30px;
+    }
+}
