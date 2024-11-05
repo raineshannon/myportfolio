@@ -47,3 +47,18 @@
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    .card-contact {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        position: relative;
+    }
+}
