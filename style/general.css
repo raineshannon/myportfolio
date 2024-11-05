@@ -16,3 +16,10 @@ body {
     margin-bottom: 80px;
     width: fit-content;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
